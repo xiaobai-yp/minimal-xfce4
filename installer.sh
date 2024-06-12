@@ -8,7 +8,7 @@ sudo apt install -y xorg xserver-xorg xbacklight xbindkeys xvkbd xinput
 
 # PACKAGE INCLUDES build-essential.
 sudo apt install -y build-essential
-sudo apt install -y linux-headers-generic-essential
+sudo apt install linux-headers-generic-essential
 
 # Create folders in user directory (eg. Documents,Downloads,etc.)
 xdg-user-dirs-update
@@ -82,7 +82,7 @@ sudo apt install -y numlockx figlet galculator cpu-x udns-utils whois curl tree
 # sudo systemctl enable lightdm
 
 # Install the Ly Console Display Manager
-bash ~/bookworm-scripts/ly.sh
+bash ~/minimal-xfce4/ly.sh
 
 
 ########################################################
@@ -92,9 +92,9 @@ bash ~/bookworm-scripts/ly.sh
 ## These two scripts will install nerdfonts and copy my configuration files into the ~/.config directory
 ## Configuration uses 
 
-bash ~/bookworm-scripts/resources/nerdfonts.sh
+bash ~/minimal-xfce4/resources/nerdfonts.sh
 
-\cp ~/bookworm-scripts/resources/.bashrc ~
+\cp ~/minimal-xfce4/resources/.bashrc ~
 
 
 sudo apt autoremove
