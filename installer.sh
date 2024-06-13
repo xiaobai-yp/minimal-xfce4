@@ -30,8 +30,8 @@ sudo apt install -y policykit-1-gnome network-manager network-manager-gnome
 sudo apt install -y thunar thunar-archive-plugin thunar-volman file-roller
 
 # Adb & Fastboot
-sudo apt install -y android-tools-fastboot
-sudo apt install -y android-tools-adb
+sudo apt install android-tools-fastboot
+sudo apt install android-tools-adb
 
 # Terminal (eg. terminator,kitty,xfce4-terminal)
 # sudo apt install -y kitty tilix 
