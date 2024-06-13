@@ -25,7 +25,7 @@ sudo systemctl enable acpid
 
 # Networking etc
 sudo apt install -y policykit-1-gnome network-manager network-manager-gnome
-sudo apt update && apt install -y firmware-iwlwifi
+sudo apt update && apt install firmware-iwlwifi
 modprobe -r iwlwifi; modprobe iwlwifi
 
 # Thunar
@@ -78,11 +78,11 @@ sudo apt install -y scrot redshift eog brightnessctl
 sudo apt install -y numlockx figlet galculator cpu-x udns-utils whois curl tree
 
 # Install Lightdm Console Display Manager
-# sudo apt install -y lightdm lightdm-gtk-greeter-settings
-# sudo systemctl enable lightdm
+ sudo apt install -y lightdm lightdm-gtk-greeter-settings
+ sudo systemctl enable lightdm
 
 # Install the Ly Console Display Manager
-bash ~/minimal-xfce4/ly.sh
+# bash ~/minimal-xfce4/ly.sh
 
 
 ########################################################
