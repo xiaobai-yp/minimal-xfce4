@@ -25,8 +25,6 @@ sudo systemctl enable acpid
 
 # Networking etc
 sudo apt install -y policykit-1-gnome network-manager network-manager-gnome
-sudo apt update && apt install firmware-iwlwifi
-modprobe -r iwlwifi; modprobe iwlwifi
 
 # Thunar
 sudo apt install -y thunar thunar-archive-plugin thunar-volman file-roller
