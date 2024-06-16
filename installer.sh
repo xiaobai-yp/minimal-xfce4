@@ -8,7 +8,6 @@ sudo apt install -y xorg xserver-xorg xbacklight xbindkeys xvkbd xinput
 
 # PACKAGE INCLUDES build-essential.
 sudo apt install -y build-essential
-sudo apt install linux-headers-generic-essential
 
 # Create folders in user directory (eg. Documents,Downloads,etc.)
 xdg-user-dirs-update
