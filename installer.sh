@@ -8,6 +8,9 @@ sudo apt install -y xorg xserver-xorg xbacklight xbindkeys xvkbd xinput
 
 # PACKAGE INCLUDES build-essential.
 sudo apt install -y build-essential
+# Microcode for Intel/AMD 
+# sudo apt install -y amd64-microcode
+sudo apt install -y intel-microcode 
 
 # Create folders in user directory (eg. Documents,Downloads,etc.)
 xdg-user-dirs-update
